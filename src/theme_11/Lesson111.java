@@ -4,7 +4,6 @@ public class Lesson111 {
 
     public int findNumbers(int[] nums) {
         int numberOfEvenNumbers = 0;
-
         for (int num : nums) {
             int countOfDigits = 0;
             while (num != 0) {
