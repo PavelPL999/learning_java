@@ -16,7 +16,6 @@ public class Lesson111 {
                 numberOfEvenNumbers++;
             }
         }
-
         return numberOfEvenNumbers;
     }
 }
