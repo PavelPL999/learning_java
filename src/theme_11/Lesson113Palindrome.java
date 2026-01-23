@@ -10,7 +10,6 @@ public class Lesson113Palindrome {
 
         int temp = number;
         int reversed = 0;
-
         while (temp != 0) {
             int lastDigit = temp % 10;
             temp = temp / 10;

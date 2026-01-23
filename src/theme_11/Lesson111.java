@@ -10,7 +10,6 @@ public class Lesson111 {
                 num = num / 10;
                 countOfDigits++;
             }
-
             if (countOfDigits % 2 == 0) {
                 numberOfEvenNumbers++;
             }
