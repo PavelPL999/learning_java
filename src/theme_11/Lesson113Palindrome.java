@@ -4,7 +4,6 @@ public class Lesson113Palindrome {
 
     public boolean isPalindrome(int number) {
         boolean result = false;
-
         if (number < 0) {
             return result;
         }
@@ -17,7 +16,6 @@ public class Lesson113Palindrome {
             temp = temp / 10;
             reversed = reversed * 10 + lastDigit;
         }
-
         return number == reversed;
     }
 }
